@@ -266,6 +266,13 @@ input[id="indicator4"]:checked ~ .elements .elements-item[for="indicator4"]{
     height: 40px;
 }
 
+.row-izquierda{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    justify-content: flex-end;
+}
+
 .information button:hover{
     background: #dfbc76;
     transition: all .3s;
